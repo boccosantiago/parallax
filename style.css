@@ -81,5 +81,16 @@
   justify-content: center;
   align-items: center;
   font-size: 3em;
+  text-align: center;
   font-family: "Press Start 2P", cursive;
+}
+
+@media (max-width: 600px) {
+  .bottom {
+    font-size: 2em;
+  }
+
+  #keyart-2 {
+    background-image: url("./images/parallax2small.png");
+  }
 }
