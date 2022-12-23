@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* PARALLAX */
+* {
+  margin: 0;
+}
+
+.body {
+  margin: -5px;
+}
+
+.keyart,
+.keyart_layer {
+  height: 1000px;
+}
+
+#parallax {
+  display: block;
+}
+
+.keyart {
+  position: relative;
+  z-index: 10;
+}
+
+.keyart_layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+.keyart_layer.parallax {
+  position: fixed;
+}
+#keyart-0 {
+  background-image: url("./images/parallax0.png");
+  background-color: #ffaf1b;
+}
+#keyart-1 {
+  background-image: url("./images/parallax1.png");
+}
+#keyart-2 {
+  background-image: url("./images/parallax2.png");
+}
+#keyart-3 {
+  background-image: url("./images/parallax3.png");
+}
+#keyart-4 {
+  background-image: url("./images/parallax4.png");
+}
+#keyart-5 {
+  background-image: url("./images/parallax5.png");
+}
+#keyart-6 {
+  background-image: url("./images/parallax6.png");
+}
+#keyart-7 {
+  background-image: url("./images/parallax7.png");
+}
+#keyart-8 {
+  background-image: url("./images/parallax8.png");
+}
+
+#keyart-scrim {
+  background-color: #ffaf00;
+  opacity: 0;
+}
+
+.container {
+  height: 1000px;
+}
+
+.bottom {
+  background-color: #210002;
+  height: 800px;
+  z-index: 1000;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: "Press Start 2P", cursive;
+}
